@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- linkear el HTML con el Javascript -->
+    <script async src="./ejercicios.js"></script>
+    <!-- async -> cargue primero su html y luego ejecute el js -->
+    <script async src="./dom.js"></script>
+
+    <title>Ejercicios JS</title>
+</head>
+<body>
+    
+
+    <h1>EJERCICIOS LOGICA DE PROGRAMACION CON JS</h1>
+    <h3>ESTRUCTURAS DE CONTROL DE FLUJO</h3>
+
+    <ul>
+        <li>Secuencias</li>
+        <li>Condiciones</li>
+        <li>Ciclos</li>
+    </ul>
+
+    <section>  
+        <h3>EJERCICIO MANIPULACION DEL DOM CON JS</h3>
+        <p>Hacer un programa que reciba un nombre por parte del usuario, si se recibió nombre por parte del usuario, saludarlo con ese nombre, si no, sólo decir 'Hola, desconocido' con Manejo de DOM</p>
+
+        <label for="">Ingrese su nombre</label>
+        <input type="text" id="nombre">
+        <br>
+        <br>
+        <!-- vamos a usar el evento onCLic -> que significa dar click al botón -->
+        <button onclick="saludarUsuario()">Saludar</button>
+        <br>
+        <br>
+        <!-- <p>En esta etiqueta se va a saludar</p> -->
+        <p class="mostrarSaludo">En esta etiqueta se va a saludar</p>
+
+
+    </section>
+
+
+
+</body>
+</html>
